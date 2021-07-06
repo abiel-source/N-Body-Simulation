@@ -4,6 +4,11 @@
 
 ### Initial Spawning of Stars:
 
+N = 750 bodies; 
+the initial spawnpoint for each star is a randomized position-vector p within a 3-dimensional sphere around origin such that each coordinate of position p is in the range [0,1]:
+initial_p = {p | p.x, p.y, p.z is in range [0,1]}
+This compact spawnpoint structure allows us to immediately see the strong gravitational attractions between those n arbitrary stars. For example, the 'slingshot effect' prominently takes place when stars orbit in close proximity.
+
 https://user-images.githubusercontent.com/31304414/124673639-19781100-de6e-11eb-8f53-5d78e18064c1.mp4
 
 ### Initial Spawning of Stars (1.5x speed):
