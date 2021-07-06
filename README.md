@@ -20,11 +20,11 @@ https://user-images.githubusercontent.com/31304414/124675608-d029c080-de71-11eb-
 
 ### Star Geometry
 
-![star geometry 3](https://user-images.githubusercontent.com/31304414/124677116-a02fec80-de74-11eb-9393-a1aa715f6d8f.png)
-
 ![star geometry 1](https://user-images.githubusercontent.com/31304414/124677125-a45c0a00-de74-11eb-8f9e-c6f6776b937b.png)
 
 ![star geometry 2](https://user-images.githubusercontent.com/31304414/124677135-a6be6400-de74-11eb-9dda-269b6f743202.png)
+
+![star geometry 3](https://user-images.githubusercontent.com/31304414/124677116-a02fec80-de74-11eb-9393-a1aa715f6d8f.png)
 
 ### Demo of Small N for Better Performance
 
