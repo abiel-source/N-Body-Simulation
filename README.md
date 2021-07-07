@@ -46,7 +46,7 @@ In order to make rendering bodies cheap, some minimal optimizations were made. B
 
 ## Demo of Small N for Better Performance
 
-N = 200 bodies; we render less stars to get a smoother visual experience.
+N = 200 bodies; we render less stars to get a smoother visual experience. We also step up from the diamond model and render a polyhedron that better approaches a sphere; we allow this since N is small.
 
 https://user-images.githubusercontent.com/31304414/124677095-973f1b00-de74-11eb-80ca-ab8b798de520.mp4
 
