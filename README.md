@@ -2,7 +2,7 @@
 
 ## Demos:
 
-### Initial Spawning of Stars:
+### Simulating Gravitational Forces and Initial Position-Vectors:
 
 N = 750 bodies; 
 the initial spawnpoint for each star is a randomized position-vector p within a 3-dimensional sphere around origin such that each coordinate of position p is in the range [0,1]:
