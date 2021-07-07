@@ -12,7 +12,9 @@ This compact spawnpoint structure allows us to immediately see the strong gravit
 https://user-images.githubusercontent.com/31304414/124673639-19781100-de6e-11eb-8f53-5d78e18064c1.mp4
 
 It must be noted that some manipulations were made when calculating the force vector between 2 arbitrary stars. Namely, the cubic term of a softening factor: e_soft^3=0.005^3 was added to the denominator when calculating the gravitational forces between 2 bodies such that:
+
 f_ij = (G * m_1 * m_2 * r_ij) / (r_ij_norm^3 + e_soft^3); where f_ij is the force-vector between 2 bodies i and j and r_ij is the displacement vector between bodies i and j.
+
 This was necessary, as our simulation does not account for star collision, and therefore without this softening factor, an unbounded growth in the gravitational calculations was produced. The detrimental implications of this were 'slingshot effects' inconsistent with reality.
 
 ### Initial Spawning of Stars (1.5x speed):
